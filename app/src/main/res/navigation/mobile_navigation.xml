@@ -24,7 +24,7 @@
         tools:layout="@layout/fragment_slideshow" />
     <fragment
         android:id="@+id/addFragment"
-        android:name="com.example.firstapp.addFragment"
+        android:name="com.example.firstapp.fragments.add.addFragment"
         android:label="fragment_add"
         tools:layout="@layout/fragment_add" >
         <action
@@ -33,7 +33,7 @@
     </fragment>
     <fragment
         android:id="@+id/listFragment"
-        android:name="com.example.firstapp.listFragment"
+        android:name="com.example.firstapp.fragments.list.listFragment"
         android:label="fragment_list"
         tools:layout="@layout/fragment_list" >
         <action
